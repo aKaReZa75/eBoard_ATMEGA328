@@ -152,16 +152,16 @@ GenerateClassCluster=0
 DocumentUniqueId=VXLTTYZW
 
 [Parameter1]
-Name=Revision
-Value=1.0
+Name=CompanyName
+Value=aKaReZa
 
 [Parameter2]
 Name=Project_Name
 Value=ATMEGA328 EB
 
 [Parameter3]
-Name=CompanyName
-Value=aKaReZa
+Name=Revision
+Value=1.0
 
 [Configuration1]
 Name=Sources

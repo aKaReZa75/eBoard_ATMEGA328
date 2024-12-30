@@ -1,1 +1,4 @@
-Record=TopLevelDocument|FileName=Sheet1.SchDoc|SheetNumber=1
+Record=TopLevelDocument|FileName=Main.SchDoc|SheetNumber=1
+Record=SheetSymbol|SourceDocument=Main.SchDoc|Designator=U_MicroController|SchDesignator=U_MicroController|FileName=MicroController.SchDoc|SheetNumber=2|SymbolType=Normal|RawFileName=MicroController.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
+Record=SheetSymbol|SourceDocument=Main.SchDoc|Designator=U_Supply|SchDesignator=U_Supply|FileName=Supply.SchDoc|SheetNumber=3|SymbolType=Normal|RawFileName=Supply.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
+Record=SheetSymbol|SourceDocument=Main.SchDoc|Designator=U_USBtoTTL|SchDesignator=U_USBtoTTL|FileName=USBtoTTL.SchDoc|SheetNumber=4|SymbolType=Normal|RawFileName=USBtoTTL.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
