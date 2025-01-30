@@ -38,6 +38,21 @@ git clone https://github.com/aKaReZa75/Educational_Boards
 **Note:** Please keep in mind that the numbers displayed in the image might vary when you perform the same actions. This is because repositories are continuously being updated and expanded. Nevertheless, the overall process remains unchanged.
 
 # USBtoTTL
+![USB to TTL Converter](Images/USBtoTTL1.jfif)
+![USB to TTL Converter](Images/USBtoTTL2.jfif)
+
+### Overview
+This project involves the design, assembly, and testing of a USB to TTL converter. The converter is simple, compact, and cost-effective, making it a great addition to your electronics toolkit. Ideal for serial communication between your computer and microcontrollers or other devices, this project walks you through every step from schematic design to final testing.
+
+### Detailed Description
+| Aspect               | Description                  |
+|----------------------|------------------------------|
+| PCB Design Software  | Altium  V24.2.2              |
+| PCB Layers           | 1-Layer FR4                  |
+| Converter IC         | CH340                        |
+| USB Port             | USB-A                        |
+
+### Project Videos
 - [aKaReZa 43 - PCB, USB to TTL](https://youtu.be/CHOmadm1B9U)  
   ---  
   In this video, we design a USB to TTL converter in a very simple, compact, and cost-effective manner based on a request from one of the channel’s respected viewers.
@@ -47,6 +62,23 @@ git clone https://github.com/aKaReZa75/Educational_Boards
   In this video, we solder and test the USB to UART converter that we designed. Additionally, we learned how to solder SMD ICs using two methods and covered important tips for testing the module.
 
 # 7Segment Shield
+![7Segment Shield](Images/7Seg_Shield1.jfif)
+![7Segment Shield](Images/7Seg_Shield2.jfif)
+
+### Overview
+This project involves designing, assembling, and testing an Arduino shield with a 7-segment display. The board includes a 7-segment display, push buttons, and an Oled display.
+
+### Detailed Description
+| Aspect               | Description                  |
+|----------------------|------------------------------|
+| PCB Design Software  | Altium  V24.2.2              |
+| PCB Layers           | 2-Layer FR4                  |
+| Pin Type             | Arduino UNO                  |
+| 7Segment             | CC - MPX4 - 30.2x14.1mm      |
+| Oled                 | SSD1306 - 0.96" - 128X64 - I2C |
+| PushButtom           | SMT Tactile 2PIN - SPST - 6X3X2 |
+
+### Project Videos
 - [aKaReZa 36 - PCB, 7Segment Shield - Part A](https://youtu.be/BtFFsqzkCSk)  
   ---  
   In this video, we design our first double-layer PCB. The board we design is an Arduino shield that includes a 7-segment display, push buttons, and an Oled display.
@@ -60,6 +92,22 @@ git clone https://github.com/aKaReZa75/Educational_Boards
   In this video, we assemble the 7-segment and OLED shield we designed after printing it, and we learn several important tips about proper soldering techniques for SMD and THD components.
 
 # ATMEGA328 Shield
+![ATMEGA328 Shield](Images/ATEMGA3281.png)
+
+### Overview
+This project involves designing, assembling, and testing an educational header board for the ATMEGA328 AVR microcontroller, compatible with the Arduino UNO.
+
+### Detailed Description
+| Aspect               | Description                  |
+|----------------------|------------------------------|
+| PCB Design Software  | Altium  V24.2.2              |
+| PCB Layers           | 2-Layer FR4                  |
+| Microcontroller      | ATMEGA328                    |
+| Pin Type             | Arduino UNO                  |
+| Converter IC         | CH340                        |
+| USB Port             | TYPE-C                       |
+
+### Project Videos
 - [aKaReZa 74 - eBoard, ATMEGA328 - PART A](https://youtu.be/-ttv7IQRaWA)  
   ---  
   This video is the first in a new series called eBoard, which stands for Educational Boards. In this video, we design the schematic for an educational header board specifically for the ATMEGA328 microcontroller used in the channel's tutorials.
