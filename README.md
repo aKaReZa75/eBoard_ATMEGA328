@@ -37,6 +37,39 @@ git clone https://github.com/aKaReZa75/Educational_Boards
 
 **Note:** Please keep in mind that the numbers displayed in the image might vary when you perform the same actions. This is because repositories are continuously being updated and expanded. Nevertheless, the overall process remains unchanged.
 
+---
+
+**Accessing Resources via the Releases Section**
+
+The **Releases** section in this repository allows you to easily download packaged versions of its contents, 
+including design files, documentation, and other resources. Follow the steps below to access and download these resources:
+
+1. **Go to the repository's main page.**  
+   Navigate to the repository's main page to get started.
+
+2. **Click on the "Releases" tab.**  
+   Locate the "Releases" tab nethe top of the page and click on it.
+
+   ![Releases tab](Images/Step7.png)
+
+3. **Browse the available releases.**  
+   In the Releases section, you will find a list of all the released versions of the repository. Each release contains 
+   specific resources and files.
+
+4. **Select a release.**  
+   Click on the desired release to view the files and assets included in that version.
+
+   ![Select Project](Images/Step8.png)
+
+5. **Download the desired files.**  
+   Find the file(s) you need in the list and click the corresponding download link to save them to your local machine.
+
+## Important Notes:
+- **RegulUpdates:**  
+  The Releases section is updated regularly. You may see additional files or new versions over time. The overall process 
+  to access and download resources, however, remains the same.
+
+
 # USBtoTTL
 ![USB to TTL Converter](Images/USBtoTTL1.jfif)
 ![USB to TTL Converter](Images/USBtoTTL2.jfif)
