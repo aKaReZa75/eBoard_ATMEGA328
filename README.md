@@ -1,7 +1,6 @@
 # Education_Boards
 
 # 💻 How to Use Git and GitHub
-
 First, open **Git Bash** :
 -  Open the folder in **File Explorer** where you want the library to be stored.
 -  **Right-click** inside the folder and select the option **"Open Git Bash here"** to open **Git Bash** in that directory.
@@ -32,14 +31,40 @@ git clone https://github.com/aKaReZa75/Educational_Boards
 
 **Note:** Please keep in mind that the numbers displayed in the image might vary when you perform the same actions. This is because repositories are continuously being updated and expanded. Nevertheless, the overall process remains unchanged.
 
-Videos
--------------
-[![](https://img.shields.io/badge/eBoard-7Segment_Shield_Part_A-yellow)](https://youtu.be/BtFFsqzkCSk)
-[![](https://img.shields.io/badge/eBoard-7Segment_Shield_Part_B-yellow)](https://youtu.be/yqlKacCi0RM)
-[![](https://img.shields.io/badge/eBoard-USB_to_TTL-yellow)](https://youtu.be/CHOmadm1B9U)
-[![](https://img.shields.io/badge/eBoard-AVR,PART_A-yellow)](https://youtu.be/-ttv7IQRaWA)
-[![](https://img.shields.io/badge/eBoard-AVR,PART_B-yellow)](https://youtu.be/Ipy6SqzdZnI)
-[![](https://img.shields.io/badge/eBoard-AVR,PART_C-yellow)](https://youtu.be/WwyNDgpCwrc)
+# USBtoTTL
+- [aKaReZa 43 - PCB, USB to TTL](https://youtu.be/CHOmadm1B9U)  
+  ---  
+  In this video, we design a USB to TTL converter in a very simple, compact, and cost-effective manner based on a request from one of the channel’s respected viewers.
+
+- [aKaReZa 51 - Repair, USB to TTL Soldering](https://youtu.be/JnmfULXj2iA)  
+  ---  
+  In this video, we solder and test the USB to UART converter that we designed. Additionally, we learned how to solder SMD ICs using two methods and covered important tips for testing the module.
+
+# 7Segment Shield
+- [aKaReZa 36 - PCB, 7Segment Shield - Part A](https://youtu.be/BtFFsqzkCSk)  
+  ---  
+  In this video, we design our first double-layer PCB. The board we design is an Arduino shield that includes a 7-segment display, push buttons, and an Oled display.
+
+- [aKaReZa 40 - PCB, 7Segment Shield - Part B](https://youtu.be/yqlKacCi0RM)  
+  ---  
+  In this video, we examine the issues with the 7-segment and Oled Arduino shield we designed in the previous video, which was routed using Auto Route. We review the problems and discuss manual routing along with important tips to follow during manual routing.
+
+- [aKaReZa 42 - Repair, Arduino 7Segment Shield Soldering](https://youtu.be/1Rpm_uHoqAg)  
+  ---  
+  In this video, we assemble the 7-segment and OLED shield we designed after printing it, and we learn several important tips about proper soldering techniques for SMD and THD components.
+
+# ATMEGA328 Shield
+- [aKaReZa 74 - eBoard, ATMEGA328 - PART A](https://youtu.be/-ttv7IQRaWA)  
+  ---  
+  This video is the first in a new series called eBoard, which stands for Educational Boards. In this video, we design the schematic for an educational header board specifically for the ATMEGA328 microcontroller used in the channel's tutorials.
+
+- [aKaReZa 76 - eBoard, ATMEGA328 - PART B](https://youtu.be/Ipy6SqzdZnI)  
+  ---  
+  In this video, we fix a few issues in the schematic, upgrade and change several sections, and then transfer all components to the PCB. We arrange the components and prepare them for routing.
+
+- [aKaReZa 88 - eBoard, ATMEGA328 - PART C](https://youtu.be/WwyNDgpCwrc)  
+  ---  
+  In this video, we complete the routing for the ATMEGA328 educational board and get familiar with related tips.
 
 # 📝 How to Ask Questions
 If you have any questions or issues, you can raise them through the **"Issues"** section of this repository. Here's how you can do it:  
