@@ -64,9 +64,7 @@ including design files, documentation, and other resources. Follow the steps bel
 5. **Download the desired files.**  
    Find the file(s) you need in the list and click the corresponding download link to save them to your local machine.
 
-## Important Notes:
-- **RegulUpdates:**  
-  The Releases section is updated regularly. You may see additional files or new versions over time. The overall process 
+**Important Notes:** The Releases section is updated regularly. You may see additional files or new versions over time. The overall process 
   to access and download resources, however, remains the same.
 
 
