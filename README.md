@@ -1,4 +1,10 @@
 # Education_Boards
+This repository contains educational resources and video tutorials on designing, assembling, and testing various educational boards for learning microcontrollers. Each board is designed from scratch, soldered, tested, and then used in tutorial videos. For example, we cover a USB to TTL converter from design to testing. These resources are ideal for electronics enthusiasts and learners aiming to deepen their understanding of microcontrollers.
+
+To get familiar with the tutorial method, watch this video:
+- [aKaReZa 25 - Microcontroller, Practical](https://youtu.be/5B_eDfAgxZU)  
+  ---  
+  In this video, we introduce the best method (based on my experience) for testing and practically implementing all the microcontroller courses on the channel. I explain the topic in detail using a practical example, and from now on, we will continue the microcontroller tutorials according to the contents of this video.
 
 # 💻 How to Use Git and GitHub
 First, open **Git Bash** :
