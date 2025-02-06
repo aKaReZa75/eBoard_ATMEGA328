@@ -6,6 +6,9 @@ To get familiar with the tutorial method, watch this video:
   ---  
   In this video, we introduce the best method (based on my experience) for testing and practically implementing all the microcontroller courses on the channel. I explain the topic in detail using a practical example, and from now on, we will continue the microcontroller tutorials according to the contents of this video.
 
+> [!CAUTION]
+> It is absolutely critical that you carefully read every single word of this document, line by line, to ensure you don't miss any details. Nothing can be overlooked.
+
 # 💻 How to Use Git and GitHub
 To access the repository files and save them on your computer, there are two methods available:
 1. **Using Git Bash and Cloning the Repository**
