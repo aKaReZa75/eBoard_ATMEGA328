@@ -1,3 +1,6 @@
+> [!CAUTION]
+> This document is currently being written and has not been completed yet.
+
 # Education_Boards
 This repository contains educational resources and video tutorials on designing, assembling, and testing various educational boards for learning microcontrollers. Each board is designed from scratch, soldered, tested, and then used in tutorial videos. For example, we cover a USB to TTL converter from design to testing. These resources are ideal for electronics enthusiasts and learners aiming to deepen their understanding of microcontrollers.
 
