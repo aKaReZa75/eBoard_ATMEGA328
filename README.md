@@ -38,12 +38,7 @@ To access the repository files and save them on your computer, there are two met
 2. **Downloading the Repository as a ZIP file**
    - This method is simpler and suitable for users who are not comfortable with command-line tools.
    - Note that with this method, you will not automatically receive updates for the repository and will need to manually download any new updates.
-
-3. **Using Releases Section**
-   - This method is ideal for users who want a specific version of the repository.
-   - You can go to the "Releases" section of the repository on GitHub and download the version you need.
-   - This method ensures that you get a stable release, but you will not receive automatic updates unless you download a new release manually.
-
+     
 ## Clone using the URL.
 First, open **Git Bash** :
 -  Open the folder in **File Explorer** where you want the library to be stored.
