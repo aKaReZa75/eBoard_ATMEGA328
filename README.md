@@ -1,16 +1,33 @@
-> [!CAUTION]
-> This document is currently being written and has not been completed yet.
+# ATMEGA328 Board
+This project involves designing, assembling, and testing an educational header board for the ATMEGA328 AVR microcontroller, compatible with the Arduino UNO.
 
-# Education_Boards
-This repository contains educational resources and video tutorials on designing, assembling, and testing various educational boards for learning microcontrollers. Each board is designed from scratch, soldered, tested, and then used in tutorial videos. For example, we cover a USB to TTL converter from design to testing. These resources are ideal for electronics enthusiasts and learners aiming to deepen their understanding of microcontrollers.
-
-To get familiar with the tutorial method, watch this video:
-- [aKaReZa 25 - Microcontroller, Practical](https://youtu.be/5B_eDfAgxZU)  
-  ---  
-  In this video, we introduce the best method (based on my experience) for testing and practically implementing all the microcontroller courses on the channel. I explain the topic in detail using a practical example, and from now on, we will continue the microcontroller tutorials according to the contents of this video.
+![ATMEGA328 Shield](Images/ATEMGA3281.png)
 
 > [!CAUTION]
 > It is absolutely critical that you carefully read every single word of this document, line by line, to ensure you don't miss any details. Nothing can be overlooked.
+
+## Detailed Description
+| Aspect               | Description                  |
+|----------------------|------------------------------|
+| PCB Design Software  | Altium  V24.2.2              |
+| PCB Layers           | 2-Layer FR4                  |
+| Microcontroller      | ATMEGA328                    |
+| Pin Type             | Arduino UNO                  |
+| Converter IC         | CH340                        |
+| USB Port             | TYPE-C                       |
+
+## Project Videos
+- [aKaReZa 74 - eBoard, ATMEGA328 - PART A](https://youtu.be/-ttv7IQRaWA)  
+  ---  
+  This video is the first in a new series called eBoard, which stands for Educational Boards. In this video, we design the schematic for an educational header board specifically for the ATMEGA328 microcontroller used in the channel's tutorials.
+
+- [aKaReZa 76 - eBoard, ATMEGA328 - PART B](https://youtu.be/Ipy6SqzdZnI)  
+  ---  
+  In this video, we fix a few issues in the schematic, upgrade and change several sections, and then transfer all components to the PCB. We arrange the components and prepare them for routing.
+
+- [aKaReZa 88 - eBoard, ATMEGA328 - PART C](https://youtu.be/WwyNDgpCwrc)  
+  ---  
+  In this video, we complete the routing for the ATMEGA328 educational board and get familiar with related tips.
 
 # 💻 How to Use Git and GitHub
 To access the repository files and save them on your computer, there are two methods available:
@@ -42,7 +59,7 @@ First, open **Git Bash** :
 -  Once **Git Bash** is open, run the following command to clone the repository:
 
  ```bash
-git clone https://github.com/aKaReZa75/Educational_Boards
+git clone https://github.com/aKaReZa75/eBoard_ATMEGA328.git
 ```
 - You can copy the above command by either:
 - Clicking on the **Copy** button on the right of the command.
@@ -75,7 +92,7 @@ Follow these steps:
 - Click the Code button to open a dropdown menu.
 - Select Download ZIP from the menu.
 
-  ![Download Zip](Images/Step9.png)  
+  ![Download Zip](Images/Step7.png)  
 
 3. Save the ZIP file:
 - Choose a location on your computer to save the ZIP file and click Save.
@@ -92,117 +109,6 @@ Follow these steps:
 > - No Updates: Keep in mind that downloading the repository as a ZIP file does not allow you to receive updates.    
 >   If the repository is updated, you will need to download it again manually.  
 > - Ease of Use: This method is simpler and suitable for users who are not comfortable with Git or command-line tools.
-
-## Releases Section
-The **Releases** section in this repository allows you to easily download packaged versions of its contents, 
-including design files, documentation, and other resources. Follow the steps below to access and download these resources:
-
-1. **Go to the repository's main page.**  
-   Navigate to the repository's main page to get started.
-
-2. **Click on the "Releases" tab.**  
-   Locate the "Releases" tab near the top of the page and click on it.
-
-   ![Releases tab](Images/Step7.png)
-
-3. **Browse the available releases.**  
-   In the Releases section, you will find a list of all the released versions of the repository. Each release contains 
-   specific resources and files.
-
-4. **Select a release.**  
-   Click on the desired release to view the files and assets included in that version.
-
-   ![Select Project](Images/Step8.png)
-
-5. **Download the desired files.**  
-   Find the file(s) you need in the list and click the corresponding download link to save them to your local machine.
-
-> [!IMPORTANT]
-> The Releases section is updated regularly. You may see additional files or new versions over time.  
-> The overall process to access and download resources, however, remains the same.
-
-# USBtoTTL
-![USB to TTL Converter](Images/USBtoTTL1.jfif)
-![USB to TTL Converter](Images/USBtoTTL2.jfif)
-
-### Overview
-This project involves the design, assembly, and testing of a USB to TTL converter. The converter is simple, compact, and cost-effective, making it a great addition to your electronics toolkit. Ideal for serial communication between your computer and microcontrollers or other devices, this project walks you through every step from schematic design to final testing.
-
-### Detailed Description
-| Aspect               | Description                  |
-|----------------------|------------------------------|
-| PCB Design Software  | Altium  V24.2.2              |
-| PCB Layers           | 1-Layer FR4                  |
-| Converter IC         | CH340                        |
-| USB Port             | USB-A                        |
-
-### Project Videos
-- [aKaReZa 43 - PCB, USB to TTL](https://youtu.be/CHOmadm1B9U)  
-  ---  
-  In this video, we design a USB to TTL converter in a very simple, compact, and cost-effective manner based on a request from one of the channel’s respected viewers.
-
-- [aKaReZa 51 - Repair, USB to TTL Soldering](https://youtu.be/JnmfULXj2iA)  
-  ---  
-  In this video, we solder and test the USB to UART converter that we designed. Additionally, we learned how to solder SMD ICs using two methods and covered important tips for testing the module.
-
-# 7Segment Shield
-![7Segment Shield](Images/7Seg_Shield1.jfif)
-![7Segment Shield](Images/7Seg_Shield2.jfif)
-
-### Overview
-This project involves designing, assembling, and testing an Arduino shield with a 7-segment display. The board includes a 7-segment display, push buttons, and an Oled display.
-
-### Detailed Description
-| Aspect               | Description                  |
-|----------------------|------------------------------|
-| PCB Design Software  | Altium  V24.2.2              |
-| PCB Layers           | 2-Layer FR4                  |
-| Pin Type             | Arduino UNO                  |
-| 7Segment             | CC - MPX4 - 30.2x14.1mm      |
-| Oled                 | SSD1306 - 0.96" - 128X64 - I2C |
-| PushButtom           | SMT Tactile 2PIN - SPST - 6X3X2 |
-
-### Project Videos
-- [aKaReZa 36 - PCB, 7Segment Shield - Part A](https://youtu.be/BtFFsqzkCSk)  
-  ---  
-  In this video, we design our first double-layer PCB. The board we design is an Arduino shield that includes a 7-segment display, push buttons, and an Oled display.
-
-- [aKaReZa 40 - PCB, 7Segment Shield - Part B](https://youtu.be/yqlKacCi0RM)  
-  ---  
-  In this video, we examine the issues with the 7-segment and Oled Arduino shield we designed in the previous video, which was routed using Auto Route. We review the problems and discuss manual routing along with important tips to follow during manual routing.
-
-- [aKaReZa 42 - Repair, Arduino 7Segment Shield Soldering](https://youtu.be/1Rpm_uHoqAg)  
-  ---  
-  In this video, we assemble the 7-segment and OLED shield we designed after printing it, and we learn several important tips about proper soldering techniques for SMD and THD components.
-
-# ATMEGA328 Shield
-![ATMEGA328 Shield](Images/ATEMGA3281.png)
-
-### Overview
-This project involves designing, assembling, and testing an educational header board for the ATMEGA328 AVR microcontroller, compatible with the Arduino UNO.
-
-### Detailed Description
-| Aspect               | Description                  |
-|----------------------|------------------------------|
-| PCB Design Software  | Altium  V24.2.2              |
-| PCB Layers           | 2-Layer FR4                  |
-| Microcontroller      | ATMEGA328                    |
-| Pin Type             | Arduino UNO                  |
-| Converter IC         | CH340                        |
-| USB Port             | TYPE-C                       |
-
-### Project Videos
-- [aKaReZa 74 - eBoard, ATMEGA328 - PART A](https://youtu.be/-ttv7IQRaWA)  
-  ---  
-  This video is the first in a new series called eBoard, which stands for Educational Boards. In this video, we design the schematic for an educational header board specifically for the ATMEGA328 microcontroller used in the channel's tutorials.
-
-- [aKaReZa 76 - eBoard, ATMEGA328 - PART B](https://youtu.be/Ipy6SqzdZnI)  
-  ---  
-  In this video, we fix a few issues in the schematic, upgrade and change several sections, and then transfer all components to the PCB. We arrange the components and prepare them for routing.
-
-- [aKaReZa 88 - eBoard, ATMEGA328 - PART C](https://youtu.be/WwyNDgpCwrc)  
-  ---  
-  In this video, we complete the routing for the ATMEGA328 educational board and get familiar with related tips.
 
 # 📝 How to Ask Questions
 If you have any questions or issues, you can raise them through the **"Issues"** section of this repository. Here's how you can do it:  
