@@ -1,5 +1,5 @@
 # ATMEGA328 Board
-This project involves designing, assembling, and testing an educational header board for the ATMEGA328 AVR microcontroller, compatible with the Arduino UNO.
+This repository involves designing, assembling, and testing an educational header board for the ATMEGA328 AVR microcontroller, compatible with the Arduino UNO.
 
 ![ATMEGA328 Shield](Images/ATEMGA3281.png)
 
