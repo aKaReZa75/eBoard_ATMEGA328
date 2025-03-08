@@ -1,0 +1,10 @@
+Output: Report Project Hierarchy
+Type  : ReportHierarchy
+From  : Variant [[No Variations]] of Project [ATMEGA328.PrjPcb]
+   Generated File[ATMEGA328.REP]
+
+
+Files Generated   : 1
+Documents Printed : 0
+
+Finished Output Generation At 11:50:51 PM On 3/8/2025
