@@ -36,17 +36,62 @@ This repository involves designing, assembling, and testing an educational heade
   This repository provides a **comprehensive guide to AVR microcontroller programming**, covering everything from the fundamentals to advanced firmware development. Learn about **AVR architecture, peripheral interfacing, timers, interrupts, communication protocols**, and more through hands-on projects and real-world examples. Whether you're just starting or looking to refine your embedded programming skills, this resource will help you master AVR development.
 
 ## Project Videos
-- [aKaReZa 74 - eBoard, ATMEGA328 - PART A](https://youtu.be/-ttv7IQRaWA)  
-  ---  
-  This video is the first in a new series called eBoard, which stands for Educational Boards. In this video, we design the schematic for an educational header board specifically for the ATMEGA328 microcontroller used in the channel's tutorials.
+<table style="border-collapse: collapse;">
+  <tr>
+    <td valign="top" style="padding: 0 10px;">
+      <h3 style="margin: 0;">
+        <a href="https://youtu.be/-ttv7IQRaWA">aKaReZa 74 – eBoard, ATMEGA328 - PART A</a>
+      </h3>
+      <p style="margin: 8px 0 0;">
+        This video is the first in a new series called eBoard, which stands for Educational Boards. In this video, we design the schematic for an educational header board specifically for the ATMEGA328 microcontroller used in the channel's tutorials.
+      </p>
+    </td>
+    <td width="360" valign="top" style="padding: 0;">
+      <a href="https://youtu.be/-ttv7IQRaWA">
+        <img src="https://img.youtube.com/vi/-ttv7IQRaWA/maxresdefault.jpg"
+             width="360"
+             alt="aKaReZa 74 – eBoard, ATMEGA328 - PART A Thumbnail"/>
+      </a>
+    </td>
+  </tr>
 
-- [aKaReZa 76 - eBoard, ATMEGA328 - PART B](https://youtu.be/Ipy6SqzdZnI)  
-  ---  
-  In this video, we fix a few issues in the schematic, upgrade and change several sections, and then transfer all components to the PCB. We arrange the components and prepare them for routing.
+  <tr>
+    <td valign="top" style="padding: 0 10px;">
+      <h3 style="margin: 0;">
+        <a href="https://youtu.be/Ipy6SqzdZnI">aKaReZa 76 – eBoard, ATMEGA328 - PART B</a>
+      </h3>
+      <p style="margin: 8px 0 0;">
+        In this video, we fix a few issues in the schematic, upgrade and change several sections, and then transfer all components to the PCB. We arrange the components and prepare them for routing.
+      </p>
+    </td>
+    <td width="360" valign="top" style="padding: 0;">
+      <a href="https://youtu.be/Ipy6SqzdZnI">
+        <img src="https://img.youtube.com/vi/Ipy6SqzdZnI/maxresdefault.jpg"
+             width="360"
+             alt="aKaReZa 76 – eBoard, ATMEGA328 - PART B Thumbnail"/>
+      </a>
+    </td>
+  </tr>
 
-- [aKaReZa 88 - eBoard, ATMEGA328 - PART C](https://youtu.be/WwyNDgpCwrc)  
-  ---  
-  In this video, we complete the routing for the ATMEGA328 educational board and get familiar with related tips.
+  <tr>
+    <td valign="top" style="padding: 0 10px;">
+      <h3 style="margin: 0;">
+        <a href="https://youtu.be/WwyNDgpCwrc">aKaReZa 88 – eBoard, ATMEGA328 - PART C</a>
+      </h3>
+      <p style="margin: 8px 0 0;">
+        In this video, we complete the routing for the ATMEGA328 educational board and get familiar with related tips.
+      </p>
+    </td>
+    <td width="360" valign="top" style="padding: 0;">
+      <a href="https://youtu.be/WwyNDgpCwrc">
+        <img src="https://img.youtube.com/vi/WwyNDgpCwrc/maxresdefault.jpg"
+             width="360"
+             alt="aKaReZa 88 – eBoard, ATMEGA328 - PART C Thumbnail"/>
+      </a>
+    </td>
+  </tr>
+</table>
+
 
 # 💻 How to Use Git and GitHub
 To access the repository files and save them on your computer, there are two methods available:
