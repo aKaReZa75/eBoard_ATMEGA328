@@ -33,6 +33,7 @@ Each item includes direct purchase links from reliable Iranian electronics suppl
 ## Other
 - [ ] [**Fuse_1206_0.5A**](https://lionelectronic.ir/products/1891-JFC1206-0500FS-63V-0.5A) Quantity: 3, Prefer: 10, Supplier: LionElectronic  
 - [ ] [**Fuse_1206_3A**](https://lionelectronic.ir/products/1894-JFC1206-1300FS-63V-3A) Quantity: 1, Prefer: 5, Supplier: LionElectronic
+- [ ] [**Crystal 12MHz**](https://lionelectronic.ir/products/2096-XTAL-12MHZ%28HC-49SMD%29) Quantity: 1, Prefer: 5, Supplier: LionElectronic
 - [ ] [**Crystal_16MHz**](https://lionelectronic.ir/products/2101-XTAL-16MHZ%28HC-49SMD%29) Quantity: 1, Prefer: 5, Supplier: LionElectronic
 - [ ] [**Jumper**](https://ickala.com/pin-header-jumper/26295-jumper2pin-%D9%82%D8%B1%D9%85%D8%B2.html) Quantity: 1, Prefer: 10, Supplier: ICKala
 
