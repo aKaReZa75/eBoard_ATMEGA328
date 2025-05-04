@@ -57,6 +57,11 @@ This repository involves designing, assembling, and testing an educational heade
   ---  
   This repository provides a **comprehensive guide to AVR microcontroller programming**, covering everything from the fundamentals to advanced firmware development. Learn about **AVR architecture, peripheral interfacing, timers, interrupts, communication protocols**, and more through hands-on projects and real-world examples. Whether you're just starting or looking to refine your embedded programming skills, this resource will help you master AVR development.
 
+- [Shopping Link](./ShoppingLink.md)  
+  ---
+  This document provides links to trusted suppliers where you can purchase all the essential components for this project, ensuring quality and reliability.
+
+
 ## Project Videos
 <table style="border-collapse: collapse;">
   <tr>
