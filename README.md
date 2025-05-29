@@ -117,6 +117,25 @@ This repository involves designing, assembling, and testing an educational heade
       </a>
     </td>
   </tr>
+
+  <tr>
+    <td valign="top" style="padding: 0 10px;">
+      <h3 style="margin: 0;">
+        <a href="https://youtu.be/j-jOPXrMTt0">aKaReZa 102 – Repair, ATMEGA328 Soldering</a>
+      </h3>
+      <p style="margin: 8px 0 0;">
+        Step-by-step soldering of an ATMEGA328-based board, covering power input, voltage regulators (12V, 5V, 3.3V), microcontroller placement, USB Type-C port installation, CH340 for USB-to-UART conversion, final connections, bootloader programming, and full board testing to ensure proper functionality.
+      </p>
+    </td>
+    <td width="360" valign="top">
+      <a href="https://youtu.be/j-jOPXrMTt0">
+        <img src="https://img.youtube.com/vi/j-jOPXrMTt0/maxresdefault.jpg"
+             width="360"
+             alt="aKaReZa 102 – Repair, ATMEGA328 Soldering Thumbnail"/>
+      </a>
+    </td>
+  </tr>
+
 </table>
 
 
