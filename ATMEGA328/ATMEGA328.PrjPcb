@@ -293,16 +293,20 @@ DocumentPath=C:\Users\Hossein\AppData\Local\Temp\QjzFF2C.xls
 DItemRevisionGUID=
 
 [Parameter1]
-Name=CompanyName
-Value=github.com/aKaReZa75
+Name=
+Value=
 
 [Parameter2]
+Name=Revision
+Value=1.1
+
+[Parameter3]
 Name=Project_Name
 Value=ATMEGA328 EB
 
-[Parameter3]
-Name=Revision
-Value=1.0
+[Parameter4]
+Name=CompanyName
+Value=github.com/aKaReZa75
 
 [Configuration1]
 Name=Sources
@@ -689,6 +693,11 @@ OutputName9=Report Single Pin Nets
 OutputDocumentPath9=
 OutputVariantName9=[No Variations]
 OutputDefault9=0
+OutputType10=BoasTools
+OutputName10=BoasTools Html BOM
+OutputDocumentPath10=
+OutputVariantName10=[No Variations]
+OutputDefault10=0
 
 [OutputGroup7]
 Name=Other Outputs
