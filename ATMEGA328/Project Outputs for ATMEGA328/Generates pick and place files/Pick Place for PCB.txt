@@ -4,9 +4,9 @@ E:\aKaReZa\#gitHub\eBoard_ATMEGA328\ATMEGA328\Project Outputs for ATMEGA328\Gene
 ========================================================================================================================
 File Design Information:
 
-Date:       11/03/25
-Time:       12:57
-Revision:   ae1c209acba05f84803a96a02f5d15c3f27f171b
+Date:       03/06/25
+Time:       15:09
+Revision:   190002e297fbc32ee7e037fd3c86630bef8f7250
 Variant:    No variations
 Units used: mm
 
@@ -17,9 +17,9 @@ Y2         12M        TopLayer    Crystal_SMD                   38.9890      14.
 Y1         12M        TopLayer    Crystal_SMD                   45.8470      59.6310      270      "Crystal Oscillator"                                                              
 U1         ATmega328P TopLayer    ATMEGA328                     28.0480      23.4130      90       "8-Bit AVR Microcontroller with 32K Bytes of In-System Programmable Flash Memory" 
 C16        100n       TopLayer    CAP_0805/2012                 29.2100      51.4524      270      "Bipolar ceramic capacitor SMD"                                                   
-U4         3.3V       TopLayer    SOT223_M                      15.2400      46.8630      270      "1'A Positive voltage regulator"                                                  
-R13        680b       TopLayer    RES_0805_(2012X06L)           5.4920       65.4050      180      Resistor                                                                          
-R12        1.8k       TopLayer    RES_0805_(2012X06L)           5.4920       63.3730      180      Resistor                                                                          
+U4         5V         TopLayer    SOT223_M                      15.2400      46.8630      270      "1'A Positive voltage regulator"                                                  
+R13        680b       TopLayer    RES_0805_(2012X06L)           3.5560       66.7140      270      Resistor                                                                          
+R12        1.8k       TopLayer    RES_0805_(2012X06L)           5.4610       66.7140      270      Resistor                                                                          
 R11        1k         TopLayer    RES_0805_(2012X06L)           46.8630      46.0130      270      Resistor                                                                          
 R10        1.8K       TopLayer    RES_0805_(2012X06L)           38.7350      41.5060      90       Resistor                                                                          
 R9         4.7K       BottomLayer RES_0805_(2012X06L)           36.8300      65.0630      270      Resistor                                                                          
@@ -33,10 +33,10 @@ C21        100n       TopLayer    CAP_1206/3216                 20.3200      48.
 C20        100n       TopLayer    CAP_1206/3216                 7.7470       48.6410      270      "Bipolar ceramic capacitor SMD"                                                   
 C19        22u        TopLayer    SMT_C_Tantalum_A              22.7330      49.1490      90       "Tantalum Capacitor,TAJ Series-SMD"                                               
 C18        10u        TopLayer    SMT_C_Tantalum_A              10.1600      49.0220      270      "Tantalum Capacitor,TAJ Series-SMD"                                               
-C10        10u        TopLayer    CAP_ALUM_5MM                  33.7280      42.1640      0        "Electrolit Capacitor SMD"                                                        
+C10        10u        TopLayer    SMT_C_Tantalum_A              34.6710      42.2910      0        "Tantalum Capacitor,TAJ Series-SMD"                                               
 U3         CH340G     TopLayer    SO16_M                        34.2900      53.2130      180      "TTL To USB Chip"                                                                 
 U2         3.3V       TopLayer    SOT223_M                      15.6210      34.4170      270      "1'A Positive voltage regulator"                                                  
-R7         220b       TopLayer    RES_0805_(2012X06L)           5.4920       67.4370      180      Resistor                                                                          
+R7         220b       TopLayer    RES_0805_(2012X06L)           1.6510       66.7140      270      Resistor                                                                          
 R6         680        TopLayer    RES_0805_(2012X06L)           42.7990      46.1494      270      Resistor                                                                          
 R5         680        TopLayer    RES_0805_(2012X06L)           40.7670      46.1494      270      Resistor                                                                          
 R4         10K        TopLayer    RES_0805_(2012X06L)           29.2100      55.5410      270      Resistor                                                                          
@@ -59,7 +59,7 @@ C14        22p        TopLayer    CAP_0805/2012                 38.1180      10.
 C13        22p        TopLayer    CAP_0805/2012                 42.1640      56.0324      270      "Bipolar ceramic capacitor SMD"                                                   
 C12        22p        TopLayer    CAP_0805/2012                 42.4180      63.2120      90       "Bipolar ceramic capacitor SMD"                                                   
 C11        100n       TopLayer    CAP_0805/2012                 34.3916      45.8470      0        "Bipolar ceramic capacitor SMD"                                                   
-C9         10p        TopLayer    CAP_0805/2012                 42.1640      51.9176      90       "Bipolar ceramic capacitor SMD"                                                   
+C9         10n        TopLayer    CAP_0805/2012                 42.1640      51.9176      90       "Bipolar ceramic capacitor SMD"                                                   
 C8         100n       TopLayer    CAP_1206/3216                 20.3200      35.4330      90       "Bipolar ceramic capacitor SMD"                                                   
 C7         100n       TopLayer    CAP_1206/3216                 8.7630       35.3060      270      "Bipolar ceramic capacitor SMD"                                                   
 C6         22u        TopLayer    SMT_C_Tantalum_A              22.4790      36.0680      90       "Tantalum Capacitor,TAJ Series-SMD"                                               

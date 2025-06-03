@@ -209,104 +209,76 @@ DocumentPath=Project Outputs for ATMEGA328\Gerber Files\PCB.REP
 DItemRevisionGUID=
 
 [GeneratedDocument11]
-DocumentPath=Project Outputs for ATMEGA328\Gerber Files\PCB_Copper_Signal_Bot.gbr
+DocumentPath=Project Outputs for ATMEGA328\Export STEP\PCB.step
 DItemRevisionGUID=
 
 [GeneratedDocument12]
-DocumentPath=Project Outputs for ATMEGA328\Gerber Files\PCB_Copper_Signal_Top.gbr
+DocumentPath=Project Outputs for ATMEGA328\Gerber Files\PCB_Copper_Signal_Bot.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument13]
-DocumentPath=Project Outputs for ATMEGA328\Gerber Files\PCB_Drawing_1.gbr
+DocumentPath=Project Outputs for ATMEGA328\Gerber Files\PCB_Copper_Signal_Top.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument14]
-DocumentPath=Project Outputs for ATMEGA328\Gerber Files\PCB_Drillmap_1.gbr
+DocumentPath=Project Outputs for ATMEGA328\Gerber Files\PCB_Drawing_1.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument15]
-DocumentPath=Project Outputs for ATMEGA328\Gerber Files\PCB_Keep-out.gbr
+DocumentPath=Project Outputs for ATMEGA328\Gerber Files\PCB_Drillmap_1.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument16]
-DocumentPath=Project Outputs for ATMEGA328\Gerber Files\PCB_Legend_Bot.gbr
+DocumentPath=Project Outputs for ATMEGA328\Gerber Files\PCB_Keep-out.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument17]
-DocumentPath=Project Outputs for ATMEGA328\Gerber Files\PCB_Legend_Top.gbr
+DocumentPath=Project Outputs for ATMEGA328\Gerber Files\PCB_Legend_Bot.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument18]
-DocumentPath=Project Outputs for ATMEGA328\Gerber Files\PCB_Paste_Bot.gbr
+DocumentPath=Project Outputs for ATMEGA328\Gerber Files\PCB_Legend_Top.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument19]
-DocumentPath=Project Outputs for ATMEGA328\Gerber Files\PCB_Paste_Top.gbr
+DocumentPath=Project Outputs for ATMEGA328\Gerber Files\PCB_Paste_Bot.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument20]
-DocumentPath=Project Outputs for ATMEGA328\Gerber Files\PCB_Profile.gbr
+DocumentPath=Project Outputs for ATMEGA328\Gerber Files\PCB_Paste_Top.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument21]
-DocumentPath=Project Outputs for ATMEGA328\Gerber Files\PCB_Soldermask_Bot.gbr
+DocumentPath=Project Outputs for ATMEGA328\Gerber Files\PCB_Profile.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument22]
-DocumentPath=Project Outputs for ATMEGA328\Gerber Files\PCB_Soldermask_Top.gbr
+DocumentPath=Project Outputs for ATMEGA328\Gerber Files\PCB_Soldermask_Bot.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument23]
-DocumentPath=Project Outputs for ATMEGA328\Generates pick and place files\Pick Place for PCB.csv
+DocumentPath=Project Outputs for ATMEGA328\Gerber Files\PCB_Soldermask_Top.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument24]
-DocumentPath=Project Outputs for ATMEGA328\Generates pick and place files\Pick Place for PCB.txt
+DocumentPath=Project Outputs for ATMEGA328\Generates pick and place files\Pick Place for PCB.csv
 DItemRevisionGUID=
 
 [GeneratedDocument25]
-DocumentPath=C:\Users\Hossein\AppData\Local\Temp\Qjz1BB0.xls
-DItemRevisionGUID=
-
-[GeneratedDocument26]
-DocumentPath=C:\Users\Hossein\AppData\Local\Temp\Qjz5AE2.xls
-DItemRevisionGUID=
-
-[GeneratedDocument27]
-DocumentPath=C:\Users\Hossein\AppData\Local\Temp\Qjz81FB.xls
-DItemRevisionGUID=
-
-[GeneratedDocument28]
-DocumentPath=C:\Users\Hossein\AppData\Local\Temp\Qjz306A.xls
-DItemRevisionGUID=
-
-[GeneratedDocument29]
-DocumentPath=C:\Users\Hossein\AppData\Local\Temp\Qjz765.xls
-DItemRevisionGUID=
-
-[GeneratedDocument30]
-DocumentPath=C:\Users\Hossein\AppData\Local\Temp\Qjz6218.xls
-DItemRevisionGUID=
-
-[GeneratedDocument31]
-DocumentPath=C:\Users\Hossein\AppData\Local\Temp\QjzFF2C.xls
+DocumentPath=Project Outputs for ATMEGA328\Generates pick and place files\Pick Place for PCB.txt
 DItemRevisionGUID=
 
 [Parameter1]
-Name=
-Value=
+Name=CompanyName
+Value=github.com/aKaReZa75
 
 [Parameter2]
-Name=Revision
-Value=1.1
-
-[Parameter3]
 Name=Project_Name
 Value=ATMEGA328 EB
 
-[Parameter4]
-Name=CompanyName
-Value=github.com/aKaReZa75
+[Parameter3]
+Name=Revision
+Value=1.1
 
 [Configuration1]
 Name=Sources
