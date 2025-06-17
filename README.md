@@ -3,6 +3,30 @@ This repository involves designing, assembling, and testing an educational heade
 
 ![ATMEGA328 Shield](Images/ATEMGA3281.jpg)
 
+## ATmega328 Pin Mapping Table
+| **Arduino Pin**  | **ATmega328 Pin**      | **Functionality**                      |
+| :-------------:  | :--------------------: | :------------------------------------- |
+|  Analog Pin A0   | PC0 (PORTC, PIN0)      | ADC0                                   |
+|  Analog Pin A1   | PC1 (PORTC, PIN1)      | ADC1                                   |
+|  Analog Pin A2   | PC2 (PORTC, PIN2)      | ADC2                                   |
+|  Analog Pin A3   | PC3 (PORTC, PIN3)      | ADC3                                   |
+|  Analog Pin A4   | PC4 (PORTC, PIN4)      | I2C (SDA) / ADC4                       |
+|  Analog Pin A5   | PC5 (PORTC, PIN5)      | I2C (SCL) / ADC5                       |
+|  Digital Pin D0  | PD0 (PORTD, PIN0)      | USART (RXD)                            |
+|  Digital Pin D1  | PD1 (PORTD, PIN1)      | USART (TXD)                            |
+|  Digital Pin D2  | PD2 (PORTD, PIN2)      | External Interrupt (INT0)              |
+|  Digital Pin D3  | PD3 (PORTD, PIN3)      | External Interrupt (INT1) / PWM (OC2B) |
+|  Digital Pin D4  | PD4 (PORTD, PIN4)      | Timer/Counter (XCK/T0)                 |
+|  Digital Pin D5  | PD5 (PORTD, PIN5)      | PWM (OC0B) / Timer1                    |
+|  Digital Pin D6  | PD6 (PORTD, PIN6)      | PWM (OC0A) / Analog Comparator         |
+|  Digital Pin D7  | PD7 (PORTD, PIN7)      | Analog Comparator Input                |
+|  Digital Pin D8  | PB0 (PORTB, PIN0)      | ICP1 / Clock Output (CLKO)             |
+|  Digital Pin D9  | PB1 (PORTB, PIN1)      | PWM (OC1A)                             |
+| Digital Pin D10  | PB2 (PORTB, PIN2)      | PWM (OC1B) / SPI (SS)                  |
+| Digital Pin D11  | PB3 (PORTB, PIN3)      | PWM (OC2A) / SPI (MOSI)                |
+| Digital Pin D12  | PB4 (PORTB, PIN4)      | SPI (MISO)                             |
+| Digital Pin D13  | PB5 (PORTB, PIN5)      | SPI (SCK) / LED\_BUILTIN               |
+
 <table>
   <tr>
   <td valign="top">
@@ -43,6 +67,7 @@ This repository involves designing, assembling, and testing an educational heade
 | Pin Type             | Arduino UNO                  |
 | Converter IC         | CH340                        |
 | USB Port             | TYPE-C                       |
+
 
 ## Resources
 - [Altium Library](https://github.com/aKaReZa75/Altium-Library)  
