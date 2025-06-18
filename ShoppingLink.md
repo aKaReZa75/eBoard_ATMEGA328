@@ -10,7 +10,7 @@ Each item includes direct purchase links from reliable Iranian electronics suppl
 - [ ] [**Cap_1206_100n**](https://lionelectronic.ir/products/5156-C3216NP01H104J160AA) Quantity: 4, Prefer: 25, Supplier: LionElectronic
 - [ ] [**Cap_Tantal_10u_16V_A**](https://lionelectronic.ir/products/2047-TAJA106K016RNJ) Quantity: 2, Prefer: 5, Supplier: LionElectronic 
 - [ ] [**Cap_Tantal_22u_6.3V_A**](https://lionelectronic.ir/products/2051-TAJA226M006RNJ) Quantity: 2, Prefer: 5, Supplier: LionElectronic 
-- [ ] [**Cap_Aluminum_10u_16V**](https://lionelectronic.ir/products/3054-VZH100M1CTR-0405) Quantity: 1, Prefer: 5, Supplier: LionElectronic  **(Instead of: Cap_Aluminum_10u_6.3V)**
+- [ ] [**Cap_Tantal_10u_10V_A**](https://lionelectronic.ir/products/2046-TAJA106K010RNJ) Quantity: 3, Prefer: 10, Supplier: LionElectronic **(Instead of: Cap_Tantal_10u_6.3V_A)**
 
 ## Connector
 - [ ] [**Power_Jack**](https://lionelectronic.ir/products/4704-DC005) Quantity: 2, Prefer: 25, Supplier: LionElectronic  
