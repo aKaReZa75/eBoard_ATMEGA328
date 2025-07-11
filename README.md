@@ -88,6 +88,30 @@ This repository involves designing, assembling, and testing an educational heade
 
 
 ## Project Videos
+
+```plaintext
+Educational Boards
+   ├── [aKaReZa 74 - eBoard, ATMEGA328 - PART A]
+   │   ├─ Schematic — Voltage reg, UNO pinout, crystal, ADC filter.
+   │   ├─ Communication — USBtoTTL + UART indicator.
+   │   └─ Features — Auto Prog and library usage.
+   │
+   ├── [aKaReZa 76 - eBoard, ATMEGA328 - PART B]
+   │   ├─ Fixes — Schematic issues and fuse improvements.
+   │   ├─ Enhancements — USB Type-C, UART LEDs, voltage divider.
+   │   └─ PCB Prep — Placement and routing readiness.
+   │
+   ├── [aKaReZa 88 - eBoard, ATMEGA328 - PART C]
+   │   ├─ Routing — GPIO, USB, MCU, power tracks.
+   │   ├─ Optimization — Polygon tool and hierarchical layout.
+   │   └─ GitHub — Pull Request and version control.
+   │
+   └── [aKaReZa 102 - Repair, ATMEGA328 Soldering]
+       ├─ Assembly — Voltage tests, MCU soldering, USB Type-C.
+       ├─ Conversion — CH340 setup and verification.
+       └─ Testing — Section-by-section validation.
+```
+
 <table style="border-collapse: collapse;">
   <tr>
     <td valign="top" style="padding: 0 10px;">
