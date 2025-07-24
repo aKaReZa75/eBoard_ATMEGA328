@@ -4,28 +4,99 @@ This repository involves designing, assembling, and testing an educational heade
 ![ATMEGA328 Shield](Images/ATEMGA328.png)
 
 ## ATmega328 Pin Mapping Table
-| **Arduino Pin**  | **ATmega328 Pin**      | **Functionality**                      |
-| :-------------:  | :--------------------: | :------------------------------------- |
-|  Analog Pin A0   | PC0 (PORTC, PIN0)      | ADC0                                   |
-|  Analog Pin A1   | PC1 (PORTC, PIN1)      | ADC1                                   |
-|  Analog Pin A2   | PC2 (PORTC, PIN2)      | ADC2                                   |
-|  Analog Pin A3   | PC3 (PORTC, PIN3)      | ADC3                                   |
-|  Analog Pin A4   | PC4 (PORTC, PIN4)      | I2C (SDA) / ADC4                       |
-|  Analog Pin A5   | PC5 (PORTC, PIN5)      | I2C (SCL) / ADC5                       |
-|  Digital Pin D0  | PD0 (PORTD, PIN0)      | USART (RXD)                            |
-|  Digital Pin D1  | PD1 (PORTD, PIN1)      | USART (TXD)                            |
-|  Digital Pin D2  | PD2 (PORTD, PIN2)      | External Interrupt (INT0)              |
-|  Digital Pin D3  | PD3 (PORTD, PIN3)      | External Interrupt (INT1) / PWM (OC2B) |
-|  Digital Pin D4  | PD4 (PORTD, PIN4)      | Timer/Counter (XCK/T0)                 |
-|  Digital Pin D5  | PD5 (PORTD, PIN5)      | PWM (OC0B) / Timer1                    |
-|  Digital Pin D6  | PD6 (PORTD, PIN6)      | PWM (OC0A) / Analog Comparator         |
-|  Digital Pin D7  | PD7 (PORTD, PIN7)      | Analog Comparator Input                |
-|  Digital Pin D8  | PB0 (PORTB, PIN0)      | ICP1 / Clock Output (CLKO)             |
-|  Digital Pin D9  | PB1 (PORTB, PIN1)      | PWM (OC1A)                             |
-| Digital Pin D10  | PB2 (PORTB, PIN2)      | PWM (OC1B) / SPI (SS)                  |
-| Digital Pin D11  | PB3 (PORTB, PIN3)      | PWM (OC2A) / SPI (MOSI)                |
-| Digital Pin D12  | PB4 (PORTB, PIN4)      | SPI (MISO)                             |
-| Digital Pin D13  | PB5 (PORTB, PIN5)      | SPI (SCK) / LED\_BUILTIN               |
+| **Arduino Pin** | **ATmega328 Pin**      | **Functionality**                      |
+| :-------------: | :--------------------: | :------------------------------------- |
+| Analog Pin A0   | PC0 (PORTC, PIN0)      | ADC0                                   |
+| Analog Pin A1   | PC1 (PORTC, PIN1)      | ADC1                                   |
+| Analog Pin A2   | PC2 (PORTC, PIN2)      | ADC2                                   |
+| Analog Pin A3   | PC3 (PORTC, PIN3)      | ADC3                                   |
+| Analog Pin A4   | PC4 (PORTC, PIN4)      | I2C (SDA) / ADC4                       |
+| Analog Pin A5   | PC5 (PORTC, PIN5)      | I2C (SCL) / ADC5                       |
+| Digital Pin D0  | PD0 (PORTD, PIN0)      | USART (RXD)                            |
+| Digital Pin D1  | PD1 (PORTD, PIN1)      | USART (TXD)                            |
+| Digital Pin D2  | PD2 (PORTD, PIN2)      | External Interrupt (INT0)              |
+| Digital Pin D3  | PD3 (PORTD, PIN3)      | External Interrupt (INT1) / PWM (OC2B) |
+| Digital Pin D4  | PD4 (PORTD, PIN4)      | Timer/Counter (XCK/T0)                 |
+| Digital Pin D5  | PD5 (PORTD, PIN5)      | PWM (OC0B) / Timer1                    |
+| Digital Pin D6  | PD6 (PORTD, PIN6)      | PWM (OC0A) / Analog Comparator         |
+| Digital Pin D7  | PD7 (PORTD, PIN7)      | Analog Comparator Input                |
+| Digital Pin D8  | PB0 (PORTB, PIN0)      | ICP1 / Clock Output (CLKO)             |
+| Digital Pin D9  | PB1 (PORTB, PIN1)      | PWM (OC1A)                             |
+| Digital Pin D10 | PB2 (PORTB, PIN2)      | PWM (OC1B) / SPI (SS)                  |
+| Digital Pin D11 | PB3 (PORTB, PIN3)      | PWM (OC2A) / SPI (MOSI)                |
+| Digital Pin D12 | PB4 (PORTB, PIN4)      | SPI (MISO)                             |
+| Digital Pin D13 | PB5 (PORTB, PIN5)      | SPI (SCK) / LED\_BUILTIN               |
+
+---
+
+### **ADC (Analog-to-Digital Converter)**
+| **Arduino Pin** | **ATmega328 Pin** | **ADC Channel** | **Other Functionality** |
+| --------------- | ----------------- | --------------- | ----------------------- |
+| A0              | PC0               | ADC0            | —                       |
+| A1              | PC1               | ADC1            | —                       |
+| A2              | PC2               | ADC2            | —                       |
+| A3              | PC3               | ADC3            | —                       |
+| A4              | PC4               | ADC4            | I2C SDA                 |
+| A5              | PC5               | ADC5            | I2C SCL                 |
+
+### **Analog Comparator**
+| **Arduino Pin** | **ATmega328 Pin** | **Functionality** |
+| --------------- | ----------------- | ----------------- |
+| D6              | PD6               | AIN0              |
+| D7              | PD7               | AIN1              |
+
+### **External Interrupts**
+| **Arduino Pin** | **ATmega328 Pin** | **Interrupt** |
+| --------------- | ----------------- | ------------- |
+| D2              | PD2               | INT0          |
+| D3              | PD3               | INT1          |
+
+### **Timers / PWM Outputs**
+| **Arduino Pin** | **ATmega328 Pin** | **PWM / Timer** |
+| --------------- | ----------------- | ----------------|
+| D3              | PD3               | OC2B (PWM)      |
+| D5              | PD5               | OC0B (PWM)      |
+| D6              | PD6               | OC0A (PWM)      |
+| D9              | PB1               | OC1A (PWM)      |
+| D10             | PB2               | OC1B (PWM)      |
+| D11             | PB3               | OC2A (PWM)      |
+
+| **Arduino Pin** | **ATmega328 Pin** | **Special Timer Function**                 |
+| --------------- | ----------------- | ------------------------------------------ |
+| D4              | PD4               | **T0** — Timer/Counter0 External Clock     |
+| D5              | PD5               | **T1** — Timer/Counter1 External Clock     |
+| D8              | PB0               | **ICP1** — Input Capture for Timer1 / CLKO |
+| D6              | PD6               | AIN0 — Used in Analog Comparator (shared)  |
+| D7              | PD7               | AIN1 — Used in Analog Comparator (shared)  |
+
+### **USART (Serial Communication)**
+| **Arduino Pin** | **ATmega328 Pin** | **USART Function** |
+| --------------- | ----------------- | ------------------ |
+| D0              | PD0               | RXD (Receive)      |
+| D1              | PD1               | TXD (Transmit)     |
+
+### **I2C Interface**
+| **Arduino Pin** | **ATmega328 Pin** | **I2C Signal** |
+| --------------- | ----------------- | -------------- |
+| A4              | PC4               | SDA            |
+| A5              | PC5               | SCL            |
+
+
+### **SPI Interface**
+| **Arduino Pin** | **ATmega328 Pin** | **SPI Signal** |
+| --------------- | ----------------- | -------------- |
+| D10             | PB2               | SS             |
+| D11             | PB3               | MOSI           |
+| D12             | PB4               | MISO           |
+| D13             | PB5               | SCK            |
+
+### **Other / General Purpose**
+| **Arduino Pin** | **ATmega328 Pin** | **Functionality**                          |
+| --------------- | ----------------- | ------------------------------------------ |
+| D13             | PB5               | `LED_BUILTIN` / SPI Clock (SCK)            |
+| D12             | PB4               | SPI MISO / **CKOUT** (System Clock Output) |
+
+---
 
 <table>
   <tr>
