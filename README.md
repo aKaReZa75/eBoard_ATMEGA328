@@ -54,12 +54,12 @@ This repository involves designing, assembling, and testing an educational heade
 ### **Timers / PWM Outputs**
 | **Arduino Pin** | **ATmega328 Pin** | **PWM / Timer** |
 | --------------- | ----------------- | ----------------|
-| D3              | PD3               | OC2B (PWM)      |
-| D5              | PD5               | OC0B (PWM)      |
 | D6              | PD6               | OC0A (PWM)      |
+| D5              | PD5               | OC0B (PWM)      |
 | D9              | PB1               | OC1A (PWM)      |
 | D10             | PB2               | OC1B (PWM)      |
 | D11             | PB3               | OC2A (PWM)      |
+| D3              | PD3               | OC2B (PWM)      |
 
 | **Arduino Pin** | **ATmega328 Pin** | **Special Timer Function**                 |
 | --------------- | ----------------- | ------------------------------------------ |
@@ -94,7 +94,7 @@ This repository involves designing, assembling, and testing an educational heade
 | **Arduino Pin** | **ATmega328 Pin** | **Functionality**                          |
 | --------------- | ----------------- | ------------------------------------------ |
 | D13             | PB5               | `LED_BUILTIN` / SPI Clock (SCK)            |
-| D12             | PB4               | SPI MISO / **CKOUT** (System Clock Output) |
+| D12             | PB4               | **CKOUT** (System Clock Output) /SPI MISO  |
 
 ---
 
