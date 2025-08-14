@@ -146,6 +146,11 @@ This repository involves designing, assembling, and testing an educational heade
 
 
 ## Resources
+
+> [!TIP]
+> The resources are detailed in the sections below.  
+> To access any of them, simply click on the corresponding blue link.
+
 - [Altium Library](https://github.com/aKaReZa75/Altium-Library)  
   ---  
    All PCB designs across all repositories and projects are built using this Altium Designer component library. It contains a wide range of verified footprints, schematic symbols, and 3D models, ensuring consistency and accuracy in PCB designs. If you're working on a new PCB, using this library will save you time and minimize errors.
